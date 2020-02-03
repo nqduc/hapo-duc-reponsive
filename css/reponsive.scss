@@ -151,6 +151,7 @@
 
   .content .today {
     padding-bottom: 50px;
+
     .in-today {
       margin-top: 40px;
       text-align: center;
@@ -158,13 +159,17 @@
       height: 48px;
 
       .icon-today {
-        font-size: 36px;
+        font-size: 50px;
         font-weight: 100;
 
         .ti-bookmark-alt {
           margin-right: 10px;
           font-size: 30px;
         }
+      }
+
+      .i {
+        font-size: 14px;
       }
     }
 
@@ -214,6 +219,7 @@
     }
 
     .img-report {
+
       img{
         width: 100%;
         margin-left: 10px;
@@ -232,6 +238,7 @@
       padding-right: 20px;
       padding-left: 1px;
     }
+
     .in-members {
       margin-top: 35px;
       text-align: center;
@@ -268,6 +275,7 @@
       color: #429321;
       padding: 5px;
     }
+
     .img-members {
 
       img {
@@ -316,6 +324,7 @@
       .text-font1 {
         font-size: 13px;
         padding: 20px 0 3px 10px;
+
         .font1 {
           text-align: justify;
         }
@@ -339,15 +348,17 @@
     margin-top: 13px;
     font-size: 10px;
 
-    .one-customer {
-      margin-top: -50px;
-      padding: -5px 5px -5px 5px;
+    .two-customer {
+      margin-top: 50px;
+      padding-right: 21px;
+      padding-left: 21px;
     }
 
     .carousel-inner {
       width: 100%;
       margin-top: -70px;
     }
+
     .carousel-indicators {
       position: absolute;
       right: 0;
@@ -370,13 +381,13 @@
     .customer-two {
       margin-top: 50px;
     }
+
     .fone2 {
       font-size: 50px;
       text-align: center;
       margin-top: 10px;
       font-weight: 100;
     }
-
 
     p {
       margin-left: 13px;
@@ -494,47 +505,49 @@
   .footer {
     background-color: #39474e;
     width: 100%;
-    height: 179px;
+    height: 155px;
     float: left;
     margin-top: -55px;
 
     .justify-content-center {
-      text-align: center;
       color: white;
       margin-top: -30px;
 
       .company {
-        font-size: 25px;
-        color: rgb(43, 231, 43);
+        font-size: 24px;
+        color: #8bc34a;
+        margin-top: 10px;
       }
 
       .names {
-        font-size: 12px;
-        color: rgb(43, 231, 43);
+        font-size: 13px;
+        color: #8bc34a;
       }
 
       .name {
-        font-size: 11px;
-        color:rgb(43, 231, 43); ;
+       font-size: 10px;;
+        color:#8bc34a; ;
       }
 
       .in-names {
         margin-top: 8px;
-        font-size: 12px;
+        font-size: 10px;
       }
 
       .in-name {
         margin-top: 11px;
-        font-size: 11px;
+        font-size: 10px;
       }
+
       .footer-on {
         position: relative;
         width: 100%;
         padding-right: 0;
         margin-left: 0;
       }
+
       .radical {
-        color: rgb(43, 231, 43);
+        color: #8bc34a;
         margin-top: 73px;
         margin-left: -5px;
         font: icon;
@@ -624,6 +637,7 @@
       border: 2px solid #b4ec51;
       border-radius: 40px;
       margin-right: 75px;
+
       .sign-in {
         padding: 3px 10px 3px 10px;
       }
@@ -725,7 +739,7 @@
       }
 
       i {
-        font-size: 12px;
+        font-size: 13px;
       }
     }
 
@@ -762,7 +776,7 @@
       text-align: center;
 
       i {
-        font-size: 12px;
+        font-size: 13px;
       }
 
       .icon-report {
@@ -817,7 +831,7 @@
       }
       
       .text-three {
-        margin-top: 25px;
+        margin-top: -5px;
       }
       .in-members {
         margin-top: 3px;
@@ -877,10 +891,9 @@
       height: 40px;
       border: 2px solid;
       border-radius: 100px;
-      font-size: 20px;
-      padding-top: 2px;
+      font-size: 24px;
       margin: -18px 32px 25px 34px;
-      background-image: linear-gradient(to right, #429321, #b4ec51);
+      background-color: #7cb342;
     }
 
     .carousel-indicators {
@@ -919,10 +932,11 @@
       width: 100%;
       margin-top: -70px;
     }
+
     .carousel-indicators {
       position: absolute;
       right: 0;
-      bottom: 215px;
+      bottom: 185px;
       left: 0;
       z-index: 15;
 
@@ -941,6 +955,7 @@
     .customer-two {
       margin-top: 50px;
     }
+
     .fone2 {
       font-size: 24px;
       text-align: center;
@@ -948,7 +963,6 @@
       margin-bottom: 40px;
       font-weight: 100;
     }
-
 
     p {
       margin-left: 13px;
@@ -968,13 +982,13 @@
     .our-one {
       font-size: 57px;
       color: #63696d;
-      margin-top:-35px;
+      margin-top:-55px;
       margin-left: -25px;
     }
 
     .our-two {
       color: #cec9c9;
-      margin-top: 25px;
+      margin-top: 5px;
       font-size: 16px;
       margin-left: -45px;
       margin-right: -45px;
@@ -985,7 +999,7 @@
       font-size: 57px;
       color: #63696d;
       text-align: right;
-      margin-top: 130px;
+      margin-top: 85px;
       margin-right: -25px;
     }
   }
@@ -1010,7 +1024,7 @@
 
       .size-project {
         margin-top: -10px;
-        font-size: 12px;
+        font-size: 13px;
       }
     }
 
@@ -1040,65 +1054,67 @@
     height: 179px;
     float: left;
     margin-top: -30px;
+    color: white;
 
-    .justify-content-center {
-      text-align: center;
+
+    .footer-ten {
+      margin-left: 20px;
       color: white;
       margin-top: 10px;
+    }
+    .company {
+      font-size: 25px;
+      color: #8bc34a;
+    }
 
-      .company {
-        font-size: 25px;
-        color: rgb(43, 231, 43);
-      }
+    .namae {
+      text-align: left;
+      color: #8bc34a;;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
 
-      .namae {
-        text-align: left;
-        color: rgb(43, 231, 43);;
-        font-size: 22px;
-        margin-left: 20px;
-        margin-bottom: 8px;
-      }
+    .names {
+      font-size: 12px;
+      color: #8bc34a;
+    }
 
-      .names {
-        font-size: 12px;
-        color: rgb(43, 231, 43);
-        font-weight: 100;
-      }
+    .name {
+      font-size: 10px;;
+      color:#8bc34a; ;
+    }
 
-      .name {
-        font-size: 11px;
-        color:rgb(43, 231, 43); ;
-      }
+    .in-names {
+      margin-top: 8px;
+      font-size: 10px;
+      font-weight: 100;
+    }
 
-      .in-names {
-        margin-top: 8px;
-        font-size: 12px;
-        font-weight: 100;
-      }
-
-      .in-name {
-        margin-top: 11px;
-        font-size: 11px;
-        
-      }
+    .in-name {
+      margin-top: 11px;
+      font-size: 10px;;
       
-      .margin {
-        margin-top: 10px;
-        text-align: left;
-        font: icon;
-      }
-      .copy {
-        margin-top: 10px;
-        font-size: 13px;
-        font-weight: 100;
-      }
+    }
+    
+    .margin {
+      margin-top: 12px;
+      text-align: left;
+      font-size: 15px;
+      margin-left: -25px;
+      font: icon;
 
-      .icon {
-        color:rgb(43, 231, 43) ;
-        padding-left: 20px;
-        font-size: 14px;
-        margin-bottom: -10px;
-      }
+    }
+
+    .copy {
+      margin-top: 10px;
+      font-size: 10px;
+    }
+
+    .icon {
+      color:#8bc34a ;
+      padding-left: 20px;
+      font-size: 14px;
+      margin-bottom: -10px;
     }
   }
 }
