@@ -478,7 +478,7 @@ html, body {
 }
 .footer .justify-content-center .in-names a {
   color: white;
-  border: none;
+  text-decoration: none;
 }
 .footer .justify-content-center .in-name {
   margin-top: 8px;
@@ -487,7 +487,7 @@ html, body {
 }
 .footer .justify-content-center .in-name a {
   color: white;
-  border: none;
+  text-decoration: none;
 }
 .footer .justify-content-center .footer-on {
   position: relative;

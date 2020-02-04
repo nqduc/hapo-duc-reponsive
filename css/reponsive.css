@@ -969,7 +969,7 @@
   }
   .footer-mb .in-names a {
     color: white;
-    border: none;
+    text-decoration: none;
   }
   .footer-mb .in-name {
     margin-top: 11px;
@@ -989,6 +989,7 @@
   .footer-mb .copy a {
     color: white;
     border: none;
+    text-decoration: none;
   }
   .footer-mb .icon {
     color: #8bc34a;
