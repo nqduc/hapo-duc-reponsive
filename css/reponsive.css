@@ -136,6 +136,7 @@
 
   .content .today {
     padding-bottom: 50px;
+    padding: 10px 10px;
   }
   .content .today .in-today {
     margin-top: 40px;
@@ -158,7 +159,7 @@
     margin-top: -10px;
     width: 100%;
     margin-bottom: 30px;
-    padding-left: 8.98701%;
+    padding: 0 2px 0 35px;
   }
   .content .today .grade-on {
     margin-top: 100px;
@@ -168,9 +169,13 @@
     text-align: justify;
     width: 250px;
     margin-top: -20px;
-    padding: 0 50px 0 15px;
+    padding: 0 45px 0 15px;
   }
 
+  .daily-report {
+    width: 100%;
+    padding: 10px 10px;
+  }
   .daily-report .in-report {
     margin-top: 35px;
     text-align: center;
@@ -185,17 +190,18 @@
   }
   .daily-report .size-report {
     font-size: 14px;
-    padding: 5px 15px 0 5px;
+    padding: 5px 15px 0 1px;
     text-align: justify;
   }
   .daily-report .img-report img {
     width: 100%;
-    padding: 4px 10px 0 15px;
+    padding: 4px 0px 0 15px;
     margin-top: 13px;
   }
 
   .content .members {
-    padding-bottom: 50px;
+    width: 100%;
+    padding: 0px 10px 50px;
   }
   .content .members .font-members {
     margin-top: 35px;
@@ -233,11 +239,10 @@
     padding: 3px 0 0 10px;
   }
   .content .members .icon-two {
-    margin-right: -2px;
+    margin-right: 3px;
     font-size: 18px;
-    margin-top: 19px;
+    margin-top: 25px;
     color: #429321;
-    padding: 5px;
   }
   .content .members .img-members img {
     margin-top: 30px;
@@ -247,7 +252,7 @@
   .customers-one {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding: 10px 10px;
   }
   .customers-one .in-customers {
     text-align: center;
@@ -256,6 +261,7 @@
   .customers-one .in-customers .icon-customers {
     font-size: 36px;
     font-weight: 100;
+    margin-top: 30px;
   }
   .customers-one .in-customers .icon-customers .ti-face-smile {
     font-size: 30px;
@@ -372,9 +378,8 @@
   }
 
   .project {
-    height: 500px;
+    padding: 0 10px;
     width: 100%;
-    margin-top: 100px;
   }
   .project .project-right {
     margin-left: -40px;
@@ -620,6 +625,10 @@
     box-shadow: none;
   }
 
+  .content .today {
+    width: 100%;
+    padding: 0 0;
+  }
   .content .today .in-today {
     margin-top: 40px;
     text-align: center;
@@ -639,10 +648,11 @@
   .content .today .img-today img {
     margin-top: -40px;
     width: 100%;
-    padding: 0 37px 10px 37px;
+    padding: 0 30px 10px 30px;
   }
   .content .today .grade-on {
     margin-top: 100px;
+    padding: 20px 5px;
   }
   .content .today .grade-on .size {
     font-size: 14px;
@@ -653,6 +663,10 @@
     padding-right: 8.69565217%;
   }
 
+  .daily-report {
+    width: 100%;
+    padding: 15px 5px;
+  }
   .daily-report .in-report {
     margin-top: 25px;
     text-align: center;
@@ -670,7 +684,7 @@
   .daily-report .size-report {
     width: 100%;
     height: 168px;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 20px;
     text-align: justify;
     padding-left: 3.26086%;
@@ -680,13 +694,13 @@
     width: 100%;
     height: 262px;
     padding-left: 4.178649%;
-    margin-top: 50px;
     padding-right: 4.357298%;
     margin-bottom: 15px;
   }
 
   .content .members {
     box-shadow: none;
+    padding: 10px 5px;
   }
   .content .members .font-members {
     margin-top: 10px;
@@ -700,6 +714,13 @@
     padding-left: 2.173913%;
     padding-right: 3.695652%;
     text-align: justify;
+  }
+  .content .members .icon-two {
+    margin-right: 3px;
+    font-size: 18px;
+    margin-top: 25px;
+    color: #429321;
+    padding-left: 12px;
   }
   .content .members .text-three {
     margin-top: -5px;
@@ -877,6 +898,7 @@
   .content .project {
     height: 700px;
     padding-bottom: 30px;
+    padding: 10px 10px;
   }
   .content .project .in-project {
     text-align: center;
