@@ -442,6 +442,7 @@ html, body {
   background-color: #39474e;
   width: 100%;
   float: left;
+  text-decoration: none;
 }
 .footer .justify-content-center {
   color: white;
