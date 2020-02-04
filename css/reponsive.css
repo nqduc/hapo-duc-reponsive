@@ -800,8 +800,8 @@
     background-color: white;
   }
   .content .rectangle .carousel-indicators li {
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     color: #d8d8d8;
     border: 2px solid #d8d8d8;
     border-radius: 50px;
@@ -834,8 +834,8 @@
     z-index: 15;
   }
   .content .our-customer .carousel-indicators li {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     color: #d8d8d8;
     border: 2px solid #d8d8d8;
     border-radius: 50px;
@@ -967,6 +967,10 @@
     font-size: 10px;
     font-weight: 100;
   }
+  .footer-mb .in-names a {
+    color: white;
+    border: none;
+  }
   .footer-mb .in-name {
     margin-top: 11px;
     font-size: 10px;
@@ -981,6 +985,10 @@
   .footer-mb .copy {
     margin-top: 10px;
     font-size: 10px;
+  }
+  .footer-mb .copy a {
+    color: white;
+    border: none;
   }
   .footer-mb .icon {
     color: #8bc34a;

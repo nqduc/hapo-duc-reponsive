@@ -353,8 +353,8 @@ html, body {
   background-color: white;
 }
 .content .our-customer .carousel-indicators li {
-  width: 6px;
-  height: 6px;
+  width: 10px;
+  height: 10px;
   color: #d8d8d8;
   border: 2px solid #d8d8d8;
   border-radius: 50px;
@@ -476,10 +476,18 @@ html, body {
   font-size: 10px;
   font-weight: 100;
 }
+.footer .justify-content-center .in-names a {
+  color: white;
+  border: none;
+}
 .footer .justify-content-center .in-name {
   margin-top: 8px;
   font-size: 10px;
   font-weight: 100;
+}
+.footer .justify-content-center .in-name a {
+  color: white;
+  border: none;
 }
 .footer .justify-content-center .footer-on {
   position: relative;

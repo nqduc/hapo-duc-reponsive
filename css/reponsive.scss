@@ -948,8 +948,8 @@
       }
 
       li {
-        width: 6px;
-        height: 6px;
+        width: 10px;
+        height: 10px;
         color: #d8d8d8;
         border: 2px solid #d8d8d8;
         border-radius: 50px;
@@ -986,8 +986,8 @@
       z-index: 15;
 
       li {
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         color: #d8d8d8;
         border: 2px solid #d8d8d8;
         border-radius: 50px;
@@ -1144,6 +1144,11 @@
       margin-top: 8px;
       font-size: 10px;
       font-weight: 100;
+
+      a {
+        color: white;
+        border: none;
+      }
     }
 
     .in-name {
@@ -1164,6 +1169,11 @@
     .copy {
       margin-top: 10px;
       font-size: 10px;
+
+      a {
+        color: white;
+        border: none;
+      }
     }
 
     .icon {

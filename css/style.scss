@@ -405,8 +405,8 @@ html,body {
         }
 
         li {
-          width: 6px;
-          height: 6px;
+          width: 10px;
+          height: 10px;
           color: #d8d8d8;
           border: 2px solid #d8d8d8;
           border-radius: 50px;
@@ -552,12 +552,22 @@ html,body {
       margin-top: 8px;
       font-size: 10px;
       font-weight: 100;
+
+      a {
+        color: white;
+        border: none;
+      }
     }
 
     .in-name {
       margin-top: 8px;
       font-size: 10px;
       font-weight: 100;
+
+      a {
+        color: white;
+        border: none;
+      }
     }
 
     .footer-on {
